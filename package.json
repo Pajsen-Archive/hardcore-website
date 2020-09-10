@@ -1,0 +1,25 @@
+{
+ 
+  "name": "Pajsen Portfolio",
+  "version": "0.4.5",
+  "description": "Console.log portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "console.log",
+    "express"
+  ]
+}

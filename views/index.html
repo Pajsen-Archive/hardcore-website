@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+      <script>
+        //<body onload="load()">
+      </script>
+      <link rel="icon" href="https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2FUntitled.png?v=1590743469118"/>
+
+      <title>C :\root/pajsen/portfolio</title>
+
+      <div class="myButton">
+        <button class="myButton" onclick="about()">About</button>
+        <button class="myButton" onclick="help()">Help</button>
+        <button class="myButton" onclick="pl()">Project List</button>
+        <button class="myButton" onclick="contact()">Contact</button>
+        <button class="myButton" onclick="github()">Github</button>
+      </div>
+      <p class="text" id="text">Try: CTRL/COMMANDO + SHIFT + I/J</p>
+    </body>
+  </head>
+  <h1>
+    Note: This website is still in beta, please check for regular updates.
+    Current version: 0.5.3
+  </h1>
+
+  <script src="console.image.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    	console.image("https://i.imgur.com/oGiMR.gif");
+    function about() {
+        console.log('%c About me:', 'background: #222; color: #ffffff')
+        console.log("%c I am a part time developer from Sweden. Right now I'm going to school but I'm still working and you can still hire me.", 'background: #222; color: #ffffff')
+        console.log('%c I make website, games, apps, tools and software in general', 'background: #222; color: #ffffff')
+        console.log('%c Whant to see my projects? press the Project List button', 'background: #222; color: #ffffff');
+         console.log('%c Press the contact button for my contact info', 'background: #222; color: #ffffff');
+
+
+
+    }
+
+
+    function help() {
+      var p = document.getElementById("text");
+      p.style.display = "block";
+      setTimeout(function(){ p.style.display ="none"; }, 5600);
+    }
+
+
+
+    function github() {
+        console.log('https://www.github.com/pajsen9263/');
+    }
+
+        function load() {
+            console.log("%c Hello and welcome to my web page!", 'background: #222; color: #ffffff')
+                        }
+
+
+        function pl(){
+            console.log('%c Current Projects:','background: #222; color: #ffffff')
+            console.log('%c C.L Website aka This Website.','background: #222; color: #ffffff')
+            console.log('%c SeeMe, SeeMe is a app that helps you see.','background: #222; color: #ffffff')
+            console.log('%c Empty Source, A story game where the source is empty.','background: #222; color: #ffffff')
+          
+
+
+            console.log("%c Old/Arcived/Finished Projects:", 'background: #222; color: #ffffff')
+            console.log("%c UED the encrypter and decrypter tool with hash256",'background: #222; color: #ffffff')
+          
+
+        }
+    
+    function contact(){
+      console.log("%c My contact info:", 'backgound: #222; color: #03396c')
+      console.log("%c mail: Pajsen@icloud.com",  'backgound: #222; color: #03396c')
+      console.log("%c Discord: pajsen#9263", 'backgound: #ffffff; color: #03396c')
+    }
+  </script>
+  <style>
+    
+    h1 {
+      color: #ffffff
+    }
+    .myButton {
+      background-color: #005b96;
+      border-radius: 45px;
+      border: 1px solid #18ab29;
+      display: inline-block;
+      cursor: pointer;
+      color: #000000;
+      font-family: Arial;
+      font-size: 17px;
+      text-decoration: none;
+      text-shadow: 1px 0px 1px #000000;
+    }
+    .myButton:hover {
+      background-color: #5cbf2a;
+    }
+    .myButton:active {
+      position: relative;
+      top: 1px;
+    }
+    body {
+      /* background: black; */
+      background: url("https://imgur.com/kaegl50.png");
+    }
+
+    .text {
+      display: none;
+      animation: blink-animation 1s steps(5, start) infinite;
+      -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      color: #ffffff;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-webkit-keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+  </style>
+</html>

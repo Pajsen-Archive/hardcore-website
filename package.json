@@ -1,6 +1,4 @@
 {
- 
-  "name": "Pajsen Portfolio",
   "version": "0.4.5",
   "description": "Console.log portfolio",
   "main": "server.js",
@@ -8,13 +6,14 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-sass-middleware": "^0.11.0"
   },
   "engines": {
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/pajsen9263/console.log-website"
   },
   "license": "MIT",
   "keywords": [
